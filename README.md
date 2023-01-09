@@ -35,19 +35,3 @@ make
 ```
 
 This creates the binaries `test_all`, `bench` and `main`.
-
-## Submit
-1. Change Teamname, Realname and MatrNr in `team.txt`. 
-The Teamname will be displayed publicly on the leaderboard.
-You can choose an arbitrary name for this, but you are also welcome to use your real name. 
-The Realname and MatrNr will be used later to verify your submission for the grade bonus.
-2. Implement the task.
-3. Commit your changes in git and push to the gitlab repository.
-4. The build system will pick up your changes and evaluate the submission. 
-If all tests succeed, your binary is handed over to the performance measurement harness. 
-The resulting times will be entered into the leaderboard.
-5. Visit http://contest.db.in.tum.de/ to see your result.
-
-Make sure your builds are not failing! <br/>
-*Left Sidebar > CI /CD > Pipelines*
-"# JoinTablesWithCpp" 
